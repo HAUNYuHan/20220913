@@ -111,3 +111,22 @@ ld -m elf_i386 helloworld-len.o -o helloworld-len
 ```
 Hello, brave new world!
 ```
+```
+strings helloworld-len
+```
+```
+Hello, brave new world!
+helloworld-len.asm
+nextchar
+finished
+__bss_start
+_edata
+_end
+.symtab
+.strtab
+.shstrtab
+.note.gnu.property
+.text
+.data
+
+```
