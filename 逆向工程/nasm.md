@@ -62,7 +62,7 @@ ld -m elf_i386 helloworld.o -o helloworld
 ```
 Hello World!
 ```
-# helloworld-len.asm
+# helloworld-len.asm 計算字符串長度
 ```
 ; Hello World Program (Calculating string length)
 ; Compile with: nasm -f elf helloworld-len.asm
