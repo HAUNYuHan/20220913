@@ -17,3 +17,20 @@ int main(void){
 de
 
 ```
+## hw02
+```
+int main(void){
+    
+    printf("C language\t\t1399.48\n");
+    printf("Python language\t\t80.72\n");
+    printf("Java Languagr\t\t95.59\n");
+    
+    
+    return 0;
+}
+```
+```
+C language              1399.48
+Python language         80.72
+Java Languagr           95.59
+```
