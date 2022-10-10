@@ -26,7 +26,7 @@ ex 訂票系統當機
 - 木桶理論(Bucker principle）
 - 僅知原則(Need to know)
 # 108年 - 108-2 資訊安全工程師_初級
-- 1. 關於搜尋引擎攻擊（Google-hacking），主要在破壞資訊系統的何種特性？
+* 1. 關於搜尋引擎攻擊（Google-hacking），主要在破壞資訊系統的何種特性？
   (A) 機密性（Confidentiality）
   (B) 完整性（Integrity）
   (C) 可用性（Availability）
