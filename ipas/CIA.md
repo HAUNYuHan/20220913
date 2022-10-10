@@ -6,6 +6,9 @@
 ex 客戶資料 薪資外洩
 ```
 - I 完整性(Integrity)
+  - 可歸責性 (Accountability) → 確保實體之行為可唯一追溯到該實體的特性。
+  - 鑑別性 (Authenticity) → 確保一主體或資源之識別就是其所聲明者的特性。
+                          → 適用於如使用者、程序、系統與資訊等實體。
 ```
 只有具備權限的人可以修改資料內容，確保資料能維持原本的面貌，資料經時空變化，
 內容也應該要能維持一致性，來確保資料的完整性。
@@ -27,8 +30,8 @@ ex 訂票系統當機
 
 # 其他資安基本觀念
 
-- 可靠度(Reliability)
-- 不可否認性(Non-repudiation)
+- 可靠度(Reliability)→ 始終如一預期之行為與結果的特性。
+- 不可否認性(Non-repudiation)→ 對一已發生之行動或事件的證明，使該行動或事件往後不能被否認的能力。
 - 邊界與分類(Boundary and classification)
 - 職務區隔(Segregation of duties, SOD)
 - 縱深防禦(Layered defense, defense in depth)
@@ -77,3 +80,53 @@ google只是查找，並不引響系統的完整性，也不會造成系統無�
 (C) 完整性（Integrity）
 (D) 鑑別性（Authenticity）
 ```
+```
+30. 憑證記載了個人資料、公開金鑰、憑證單位名稱、數位簽章、以及憑證 有效期限及用途等資訊，下列何者「不」是它的特性？
+(A) 完整性（Integrity）
+(B) 不可否認性（Non-Repudiation）
+(C) 身分識別（Authentication）
+*(D) 可用性（Availability）
+```
+```
+可用性availability的部分是指：確保資訊系統能提供正常服務。
+```
+```
+32. 遠端用戶撥入驗證服務（Remote Authentication Dial In User Service , RADIUS）是 AAA 三種服務的網絡傳輸協議
+，關於此 AAA，下列何 者「不」正確？
+(A) Authentication
+(B) Authorization
+*(C) Access
+(D) Accounting
+```
+# 109年 - 資訊安全管理概論
+```
+1. 下列何者為「公司網路系統必須 24 小時運作」的主要原因？
+(A) 機密性
+*(B) 可用性
+(C) 完整性
+(D) 不可否認性
+```
+```
+33. 關於可歸責性（Accountability）的定義，下列何者正確？
+(A) 對使用者所提出的可識別資訊加以驗證
+(B) 使用者必須提供可識別的資訊給系統
+*(C) 成功登入系統後，對於使用者的操作行為必須完整的記錄
+(D) 管理階層的管理機制，將管理工作分成多人分層負責
+```
+# 110年 - 110-1初級資訊安全工程師
+```
+1. 關於資訊安全「可用性」的定義，下列敘述何者正確？
+(A) 確保資訊的正確和完全性
+*(B) 確保資訊在需要時可被存取和使用
+(C) 確保資訊在傳輸過程中已確認兩方的身分和合法性
+(D) 確保資訊不會被揭露或被未經授權的個人、實體和流程所取得
+```
+```
+35. 下列何者「不」是應用系統安全防護的三大核心（AAA）？
+(A) Authentication
+(B) Authorization
+*(C) Availability
+(D) Accounting
+```
+# 110年 - 初級資訊安全工程師能力鑑定：資訊安全技術概論
+https://app.yamol.tw/exam/102069
