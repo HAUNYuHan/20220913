@@ -10,7 +10,9 @@ ex 合約 打卡紀錄被竄改
 ex 訂票系統當機
 # 3A
 
-- AAA ==> 驗證(Authentication) 授權(Authorization) 可歸責(Accountability)
+- 驗證(Authentication) 
+- 授權(Authorization) 
+- 可歸責(Accountability)
 
 # 其他資安基本觀念
 
