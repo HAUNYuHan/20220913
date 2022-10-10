@@ -73,3 +73,25 @@ int main(void){
 期末分數:100.00
 期末考與期中考平均分數:80.00
 ```
+## hw04
+```
+#include<stdio.h>
+int main()
+{
+	int x=34,y;
+	int result;
+	y = 57;
+	result = x * (y);
+	printf("result = %d  x = %d  y = %d\n", result, x ,y);
+    
+	y = 6;
+	result = x * (y);
+	printf("result = %d  x = %d  y = %d\n", result, x, y);
+	return 0;
+}
+
+```
+```
+result = 1938  x = 34  y = 57
+result = 204  x = 34  y = 6
+```
