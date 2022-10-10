@@ -23,4 +23,3 @@ ex 訂票系統當機
 - 阿奇里斯腱(Achilles heel)
 - 木桶理論(Bucker principle）
 - 僅知原則(Need to know)
-
