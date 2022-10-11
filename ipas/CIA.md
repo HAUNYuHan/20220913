@@ -22,6 +22,27 @@ ex 合約 打卡紀錄被竄改
 要可以正常使用。 (能用但很慢的話? 品質問題)
 ex 訂票系統當機
 ```
+# 保護資訊C.I.A.不同的技術與方法
+```
+破壞email server的A有那些方式?
+如何保護email server的A??
+```
+- 機密性保護技術
+  – 加解密技術
+  – 存取控制
+
+- 完整性保護技術
+  – 雜湊函數 hash ==>  md5 sha1  sha2 sha3
+  – 數位簽章
+  – 存取控制
+
+- 可用性保護技術
+  – 容量規劃
+  – 備份
+  – 容錯、備援及負載平衡
+    - 系統容錯 == > heartbit
+    - 硬碟容錯 == > [RAID](https://zh.wikipedia.org/wiki/RAID)
+  – 存取控制
 # 3A
 
 - 驗證(Authentication) 
