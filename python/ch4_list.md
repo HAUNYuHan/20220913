@@ -1,0 +1,80 @@
+## list
+```
+list1 = ["小明","Gudio",666,True]
+print(list1)
+```
+```
+list1 = ["小明","Gudio",666,True]
+print(list1)
+```
+- append()
+```
+list1.append("小張")
+print(list1)
+```
+```
+['小明', 'Gudio', 666, True, '小張']
+```
+- extend()
+```
+list1.extend(["小王","小李"])
+print(list1)
+```
+```
+['小明', 'Gudio', 666, True, '小張', '小王', '小李']
+```
+- insert()
+```
+list1.insert(1,"小杜")
+print(list1)
+```
+```
+list1.insert(1,"小杜")
+print(list1)
+```
+- +
+```
+list2 = ["小巴","小新","阿尼亞"]
+list3 = list2 + list1
+print(list3)
+```
+```
+['小巴', '小新', '阿尼亞', '小明', '小杜', 'Gudio', 666, True, '小張', '小王', '小李']
+```
+- index
+```
+num = list3.index("小杜")
+print(num)
+```
+```
+4
+```
+- in
+```
+check1 = "小新" in list3
+check2 = "蠟筆" in list3
+print(check1)
+print(check2)
+```
+```
+True
+False
+```
+- for
+```
+for i in list3:
+  if "小新" == i:
+    print("存在")
+    break
+```
+```
+存在
+```
+### 修改
+```
+list3[5]="王八"
+print(list3)
+```
+```
+['小巴', '小新', '阿尼亞', '小明', '小杜', '王八', 666, True, '小張', '小王', '小李']
+```
