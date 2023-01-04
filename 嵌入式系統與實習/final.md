@@ -295,4 +295,7 @@ String readDHTData() {
 }
 ```
 <img width="647" alt="Screen Shot 2023-01-04 at 12 12 57 PM" src="https://user-images.githubusercontent.com/71476327/210483258-044fb622-5875-406c-b7d5-7acbe29ea028.png">
+<img width="865" alt="Screen Shot 2023-01-04 at 12 19 18 PM" src="https://user-images.githubusercontent.com/71476327/210483948-69e6b5eb-115c-484d-8077-c0c49c09fed1.png">
+<img width="647" alt="Screen Shot 2023-01-04 at 12 20 07 PM" src="https://user-images.githubusercontent.com/71476327/210483985-3e040ffb-c7b9-4171-9d15-87b860727368.png">
+<img width="842" alt="Screen Shot 2023-01-04 at 12 20 40 PM" src="https://user-images.githubusercontent.com/71476327/210484060-fb1ca352-326d-4b6d-9ec1-3a3aadd109b1.png">
 
