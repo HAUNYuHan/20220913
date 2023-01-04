@@ -291,5 +291,8 @@ String readDHTData() {
   Serial.println(String() + "WebEvent: reading temperature... " + t + "°C");
   Serial.println(String() + "WebEvent: reading himidity ... " + h + "%");
   return dhtData_json;
+
 }
 ```
+<img width="647" alt="Screen Shot 2023-01-04 at 12 12 57 PM" src="https://user-images.githubusercontent.com/71476327/210483258-044fb622-5875-406c-b7d5-7acbe29ea028.png">
+
